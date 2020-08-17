@@ -1,0 +1,42 @@
+/*CSS*/
+/* Container Responsivo */
+@media (min-width: 1200px)
+.container-fluid {
+    max-width: 100%;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 100%;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 100%;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 100%;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Fim do Container */
+body {
+    background: url(../img/japan-back.jpg);
+}
+.main { 
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
+.titulo {
+    color: #ffffff;
+
+}
+.titulo2 {
+    color: #ffffff;
+}
